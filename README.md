@@ -1,25 +1,26 @@
 ## Generate a new version 
 
+```
 gem build fas.gemspec
 gem install ./fas-0.0.0.gem
 gem push fas-0.0.0.gem
+```
 
-https://rubygems.org/gems/fas
+Ruby Gems: https://rubygems.org/gems/fas
 
 ## fas.json structure
+```
 {
-	"actions": [],
-	"targetActions": [{
-		"target": "",
-		"actions": []
+	"actions": [{
+		"type": "", 
+		"action":  ""
+	}],
+	"lanes": [{
+		"name": "",
+		"actions": [{
+			"type": "", 
+			"action":  ""
+		}]
 	}]
 }
-
-Example: 
-{
-	"actions": [],
-	"targetActions": [{
-		"target": "",
-		"actions": []
-	}]
-}
+```
