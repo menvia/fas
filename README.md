@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/fas.svg)](https://badge.fury.io/rb/fas)
 ## Generate a new version 
 
 ```
